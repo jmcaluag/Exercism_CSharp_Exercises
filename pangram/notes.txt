@@ -1,0 +1,13 @@
+Conditions:
+- At least one of every English letter is used.
+
+Other ideas:
+- Convert to ASCII values and check within the range ASCII "a" to ASCII "z".
+- Convert to lower case.
+- 
+
+Attempt 1:
+- Iterate through a string.
+- Add unique letters to a list.
+- If list contains 26 elements, is a pangram.
+    - Else, not a pangram.
