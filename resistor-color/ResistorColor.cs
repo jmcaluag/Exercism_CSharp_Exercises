@@ -1,14 +1,13 @@
-﻿using System;
+﻿
+using System;
 
 public static class ResistorColor
 {
-    public static int ColorCode(string color)
-    {
-        throw new NotImplementedException("You need to implement this function.");
-    }
+    public static int ColorCode(string color) => Array.IndexOf(Colors(), color);
 
     public static string[] Colors()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        string[] colorCode =  {"black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "grey", "white"};
+        return colorCode;
     }
 }
