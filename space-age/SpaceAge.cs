@@ -33,6 +33,7 @@ public class SpaceAge
         return Math.Round(calculateOnEarth(), 2);
     }
 
+    // Check notes.txt to see reasoning for maths.
     public double OnMercury()
     {
         return Math.Round(calculateOnEarth() / mercuryYearAsEarth, 2);
