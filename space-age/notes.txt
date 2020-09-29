@@ -1,0 +1,17 @@
+Convert seconds to years.
+
+1 Earth Year = 31557600 seconds in a year
+
+1/31557600 Earth Year = 1 second
+
+Mercury
+-------
+1 Earth Year = 31557600 seconds in a year
+
+1 Mercury Year = 0.2408467 Earth Year
+
+1 Mercury Year = 31557600 * 0.2408467 seconds in a Mercury year
+
+1 Mercury Year = 7,600,543.81992 seconds in a year
+
+1/(31557600 * 0.2408467) Mercury Year = 1 second in a Mercury year
